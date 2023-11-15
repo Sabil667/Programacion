@@ -1,3 +1,8 @@
-//
-// Created by Usuario on 15/11/2023.
-//
+#include <iostream>
+
+namespace Geometria {
+    double areaTriangulo(double base, double altura) {
+        return (base*altura)/2;
+    }
+
+}
