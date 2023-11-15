@@ -25,6 +25,4 @@ int main () {
     cout<< "La raiz cuadrada del primer numero es: "<< raiz<< endl;
 
 
-
-
 }
