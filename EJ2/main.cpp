@@ -6,6 +6,8 @@
 #include "triangulo.cpp"
 #include "hexagono.cpp"
 
+using namespace std;
+
 int main() {
     double radio=12;
     double basetriangulo=4;
@@ -22,6 +24,11 @@ int main() {
     double areahexagono = Geometria::areaHexagono(ladohexagono);
 
 
+    cout<< "El area del circulo es: "<< areacirculo<< endl;
+    cout<< "El area del triangulo es: "<< areatriangulo<< endl;
+    cout<< "El area del rectangulo es: "<< arearectangulo<< endl;
+    cout<< "El area del cuadrado es: "<< areacuadrado<< endl;
+    cout<< "El area del hexagono es: "<< areahexagono<< endl;
 
 
 
