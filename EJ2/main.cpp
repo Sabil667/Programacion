@@ -16,6 +16,11 @@ int main() {
     double ladohexagono=7;
 
     double areacirculo = Geometria::areaCirculo(radio);
+    double areatriangulo = Geometria::areaTriangulo(basetriangulo, alturatriangulo);
+    double arearectangulo = Geometria::areaRectangulo(baserectangulo, alturarectangulo);
+    double areacuadrado = Geometria::areaCuadrado(ladocuadrado);
+    double areahexagono = Geometria::areaHexagono(ladohexagono);
+
 
 
 
