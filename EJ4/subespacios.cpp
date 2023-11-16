@@ -45,7 +45,7 @@ int main(){
     cin>> masa;
 
     double peso = calcularPeso(masa);
-    cout<< "El peso es: "<< peso<< endl;
+    cout<< "El peso es: "<< peso<< "newtons"<<endl;
 
     cout<<"Introduzca los moles: ";
     cin>> moles;
