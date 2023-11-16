@@ -36,6 +36,12 @@ int main(){
     nombres.insert("Tobey Maguire");
     nombres.insert("Andrew Garfield");
 
+    cout<< "Set: ";
+    for(const auto& nombre : nombres){
+        cout<< nombre<< " ";
+    }
+    cout<< "\n";
+
 
 
 }
