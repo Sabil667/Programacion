@@ -47,6 +47,13 @@ int main(){
     double peso = calcularPeso(masa);
     cout<< "El peso es: "<< peso<< endl;
 
+    cout<<"Introduzca los moles: ";
+    cin>> moles;
+    cout<<"Introduzca los litros: ";
+    cin>> litros;
+
+    double molaridad = calcularMolaridad(moles, litros);
+    cout<<"La molaridad es: "<< molaridad<<"moles/litros"<< endl;
 
 
 }
