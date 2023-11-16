@@ -24,6 +24,12 @@ int main(){
     edad["Tobey Maguire"] = 30;
     edad["Andrew Garfield"] = 22;
 
+    cout<< "Map (Clave, Valor): ";
+    for(const auto& pareja : edad){
+        cout<< "("<< pareja.first<< ", "<< pareja.second<< ") ";
+    }
+    cout<< "\n";
+
 
 
 }
