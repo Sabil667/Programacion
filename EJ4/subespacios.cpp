@@ -34,7 +34,19 @@ int main(){
     using namespace Ciencia::Gravedad;
     using namespace Ciencia::Quimica;
 
-    double masa,
+    double masa,moles,litros;
+    cout<< "Introduzca la masa: ";
+    cin>> masa;
+
+    double energia = calcularEnergia(masa);
+    cout<< "La energia es: "<< energia<< endl;
+
+    cout<<"Introduzca la masa del objeto1: ";
+    cin>> masa;
+
+    double peso = calcularPeso(masa);
+    cout<< "El peso es: "<< peso<< endl;
+
 
 
 }
