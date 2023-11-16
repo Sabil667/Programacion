@@ -30,6 +30,12 @@ int main(){
     }
     cout<< "\n";
 
+    set<string> nombres;
+
+    nombres.insert("Ghali");
+    nombres.insert("Tobey Maguire");
+    nombres.insert("Andrew Garfield");
+
 
 
 }
